@@ -7,6 +7,9 @@
     <title>Lisbeth Ramírez</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link  rel="icon"   href="images/icon.png" type="image/ico" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 
@@ -17,34 +20,37 @@
  <section class="hero">
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:none;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: none;">
   <div class="container-fluid">
   <a class="nav-item" href=""><img src="Images/icon.png" alt="" style="height: 32px;"></a>
-    <a class="navbar-brand" id="brand-l" href="#">Lisbeth Ramírez</a>
+    <a class="navbar-brand" id="brand-l" href="#about">Lisbeth Godoy</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav md-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" id="nav-word" aria-current="page" href="#scroll-content">Home</a>
+          <a class="nav-link active" href="#about" id="nav-word">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio" id="nav-word">Link</a>
+          <a class="nav-link active" id="nav-word" aria-current="page" href="#skills-section">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" id="nav-word">Link</a>
+          <a class="nav-link active" href="#portfolio" id="nav-word">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contact" id="nav-word">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container-fluid p-5">
+<div class="container-fluid p-5" id="about">
   <div class="row">
     <div class="col-md-8 px-5">
       <p class="display-6 display-welcome mt-3"><b>Welcome I´m</b></p>
-      <p class="h1 text-name">Lisbeth Ramírez</p>
+      <p class="h1 text-name">Lisbeth Godoy</p>
       <p class="display-6 display-description">Web Developer</p>
       <p class="display-text-about">I am twenty-three years old and I really like web development, especially when it comes to Frontend development because it allows me to use creativity to make attractive sites that provide the best user experience.</p>
      <button type="button" class="btn mt-3 mb-5 boton">Download CV</button>
@@ -60,7 +66,7 @@
  </section>
     <!--End of hero section-->
 
-<section class="skills fadeTop" id="scroll-content">
+<section class="skills fadeTop" id="skills-section">
 
   <div class="container-fluid px-2 py-3">
     <div class="row">
@@ -70,53 +76,53 @@
         </div>
           <div class="row row-Tskills">
             <div class="col-sm-3">
-              <div class="progress html">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular html">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">90%</div>
+                <div class="progress-circular-value">90%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>HTML</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress css">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular css">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">75%</div>
+                <div class="progress-circular-value">75%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>CSS</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress js">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular js">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">60%</div>
+                <div class="progress-circular-value">60%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>Javascript</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress angular">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular angular">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">50%</div>
+                <div class="progress-circular-value">50%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>Angular</b></p>
             </div>
@@ -124,53 +130,53 @@
 
           <div class="row row-Tskills mt-5">
             <div class="col-sm-3">
-              <div class="progress php">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular php">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">80%</div>
+                <div class="progress-circular-value">80%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>PHP</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress c">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular c">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">75%</div>
+                <div class="progress-circular-value">75%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>C#</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress mysql">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular mysql">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">85%</div>
+                <div class="progress-circular-value">85%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>SQL & MySQL</b></p>
             </div>
 
             <div class="col-sm-3">
-              <div class="progress git">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
+              <div class="progress-circular git">
+                <span class="progress-circular-left">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
+                <span class="progress-circular-right">
+                    <span class="progress-circular-bar"></span>
                 </span>
-                <div class="progress-value">80%</div>
+                <div class="progress-circular-value">80%</div>
             </div>
             <p class="text-center mt-3 display-6 display-description"><b>Git & Github</b></p>
             </div>
@@ -179,41 +185,28 @@
 
       <div class="col-md-6 Bskills">
         <div class="row text-center mt-3 mb-5">
-          <h2>Personal Skills</h2>
+          <h2>Education</h2>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="d-flex">
-              <div class="flex-shrink-0">
-                <img src="Images/time.png" alt="...">
+        <div class="row px-5 d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card">
+              <ul class="list-group list-group-flush">
+              <li class="list-group-item card-aditional">
+                  <div class="row">
+                      <div class="col-md-5"><strong>College Degree:</strong></div>
+                      <div class="col-md-7"><p>Computer Science Engineering</h1></p>
+                  </div>
+              </li>
+              <li class="list-group-item card-aditional">
+                  <div class="row">
+                      <div class="col-md-5"><strong>Languages:</strong></div>
+                      <div class="col-md-7"><p>English - Level B1</h1></p>
+                  </div>
+              </li>
+              </ul>
               </div>
-              <div class="flex-grow-1 ms-3">
-                Puntuality
-              </div>
-            </div>
           </div>
-          <div class="col-md-3">
-            
-          </div>
-          <div class="col-md-3">
-            
-          </div>
-          <div class="col-md-3">
-            
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            
-          </div>
-          <div class="col-md-3">
-            
-          </div>
-          <div class="col-md-3">
-            
-          </div>
-          <div class="col-md-3">
-            
+      </div>
           </div>
         </div>
       </div>
@@ -224,105 +217,66 @@
 
 <!--Portfolio Section-->
 
-<section class="portfolio fadeLeft" id="portfolio">
+<section class="portfolio card-aditional fadeLeft mb-5" id="portfolio">
 
-  <div class="album py-5 bg-light">
+  <div class="row text-center py-5">
+    <h2>Portfolio</h2>
+  </div>
+
+  <div class="album bg-light">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/entradas/inicio.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-5">Record of files, is a desktop system developed for a Salvadoran institution. The technologies in this project were: C# and SQL Server</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalrecordfiles">More</button>
+                  <a href="https://github.com/LisbethRmrz/RegistrosEntradas" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark">Repository</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/inventario/1st.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-5">This program was created using C# and SQL Server, its purpose is to keep the inventory of products and sales of a store dedicated to the sale of multiple products for the home.</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalinventario">More</button>
+                  <a href="https://github.com/LisbethRmrz/Sistema_Inventario" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark">Repository</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/veterinaria/2nd.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-5">Veterinary Project, is a dating control website, services and products related to pets. It was developed using HTML5, CSS3, Javascript, Bootstrap, Firebase, and Angular.</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalveterinaria">More</button>
+                  <a href="https://github.com/LisbethRmrz/RegistrosEntradas" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark">Repository</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -330,63 +284,389 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/portal/inicio.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-5">Portal project, is the design of a web template for a course portal, developed during my internship process, using HTML5, CSS3, Javascript and Bootstrap5 frontend technologies</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalportal">More</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/parser/AYC.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-3">
+                ParserSQL, develops the first three phases of a compiler. It carries out the activities of a lexical, syntactic and semantic analyzer of the SQL language; It is developed using SQL Server and the C# programming language
+                and belongs to a professorship project of my career.</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalparser">More</button>
+                  <a href="https://github.com/LisbethRmrz/ProyectoAyC_2020" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark">Repository</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <div class="overlayone">
+            <img src="Images/Portafolio/tours/2nd.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="overlayinn">
+              <p class="card-text p-5">Adventure Tours, is a web page for requesting and booking national or international trips. It is developed using HTML5, CSS3, Javascript, Bootstrap, MySQL and PHP.</p>
+                </div>
+               </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modaltours">More</button>
+                  <a href="https://github.com/LisbethRmrz/AdventureTours" target="_blank"><button type="button" class="btn btn-sm btn-outline-dark">Repository</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
+          </div>
+        </div>
+
+</section>
+
+<!--Modals-->
+
+<div class="modal" id="modalrecordfiles" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Record of Files</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/entradas/login.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/entradas/penales.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/entradas/violencia.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modalinventario" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inventory System</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsI" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/inventario/log.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/inventario/1st.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/inventario/2nd.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsI" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsI" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modalveterinaria" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Veterinary</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsV" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/veterinaria/1st.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/veterinaria/3rd.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/veterinaria/4th.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsV" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsV" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modalportal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Portal Template</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsP" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/portal/programa.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/portal/programa_muestra.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/portal/inicio.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsP" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsP" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modalparser" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ParserSQL</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsParser" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/parser/1st.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/parser/2nd.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/parser/AYC.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsParser" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsParser" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modaltours" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Adventure Tours</h5>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsT" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Portafolio/tours/1st.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/tours/DDP.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Portafolio/tours/3rd.PNG" class="d-block w-100" alt="..." width="100%" height="225">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsT" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsT" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #9D2666;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-myfooter">
+        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #FFD0F2;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End of modals-->
+
+<!--footer section-->
+
+<section class="myfooter" id="contact">
+  
+  <div class="container px-4 py-5">
+    <div class="row">
+      <div class="col-sm-4 px-5">
+        <h3>Social</h3>
+        <div class="row">
+          <div class="col-sm-2">
+            <!-- Linkedin -->
+            <a class="btn btn-sm btn-outline-dark" href="https://www.linkedin.com/in/lisbeth-ramirez-7355811b5/" role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="col-sm-10">
+            <p><em>LinkedIn</em></p>
+          </div>         
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <!-- Github -->
+          <a class="btn btn-outline-dark btn-sm" href="https://github.com/LisbethRmrz" role="button"
+          ><i class="fab fa-github"></i
+          ></a>
+          </div>
+          <div class="col-sm-10">
+            <p><em>Github</em></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <!-- Facebook -->
+            <a class="btn btn-outline-dark btn-sm" href="https://www.facebook.com/lissamirez/" role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div>
+          <div class="col-sm-10">
+            <p><em>Facebook</em></p>
           </div>
         </div>
       </div>
+
+      <div class="col-sm-4 px-5">
+        <h3>Contact</h3>
+        <div class="row">
+          <div class="col-sm-1">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="col-sm-11">
+            <p><em>+503 7028-5435</em></p>
+          </div>         
+        </div>
+        <div class="row">
+          <div class="col-sm-1">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="col-sm-11">
+            <p><em>lisbethrmrz98@gmail.com</em></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="col-sm-11">
+            <p><em>San Bartolomé Perulapía, Cuscatlán, El Salvador</em></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 px-5">
+        <h3>Links</h3>
+        <div class="row">
+          <a href="#about" class="nav-link text-dark">About Me</a>
+        </div>
+        <div class="row">
+          <a href="#skills-section" class="nav-link text-dark">Skills</a>
+        </div>
+        <div class="row">
+          <a href="#portfolio" class="nav-link text-dark">Portfolio</a>
+        </div>
+        <div class="row">
+          <a href="#contact" class="nav-link text-dark">Contact</a>
+        </div>
+      </div>
+      
     </div>
   </div>
 
 </section>
 
+<!--End of footer section-->
+
+
+<footer>
+  <div class="text-center p-3" style="background-color: #e9bcdc">
+    <hr>
+    Lisbeth Godoy © 2022 Copyright.
+  </div>
+</footer>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script>
   window.addEventListener('scroll', function()  {
-  let element = document.getElementById('scroll-content');
+  let element = document.getElementById('skills-section');
   let screenSize = window.innerHeight;
   
     if(element.getBoundingClientRect().top < screenSize) {
